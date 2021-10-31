@@ -4,6 +4,8 @@ class Car {
     int Acceleration;
 
     Car(String NameOfCar,int SpeedOfCar, int AccelerationOfCar) {
-        Name = NameOfCar; Speed=SpeedOfCar; Acceleration=AccelerationOfCar;
+        Name = NameOfCar;
+        Speed=SpeedOfCar;
+        Acceleration=AccelerationOfCar;
     }
 }

@@ -29,7 +29,7 @@ class Race {
             for (int i = 0; i < N; i++) {
                 car[i].Speed += car[i].Acceleration; //набор скорости
                 if (car[i].Speed > finishSpeed) isFinished = true;
-//                System.out.println("№"+i+" "+car[i].Name + " скор. " + car[i].Speed);
+                System.out.println("№"+i+" "+car[i].Name + " скор. " + car[i].Speed);
             }
         }
         System.out.println("\n" + "Финиш.\nРезультаты:");
